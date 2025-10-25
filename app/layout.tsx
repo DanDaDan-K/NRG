@@ -40,11 +40,12 @@ export const metadata: Metadata = {
     description: "Rent or subscribe — campus power made effortless. Try the interactive demo.",
     images: ["/og-plugo.png"],
   },
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-    maximumScale: 1,
-  },
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
   themeColor: "#00F3A4",
 };
 
