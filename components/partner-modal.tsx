@@ -73,7 +73,7 @@ export default function PartnerModal({ isOpen, onClose }: PartnerModalProps) {
                 >
                   <div className="text-6xl mb-4">✓</div>
                   <h3 className="text-2xl font-bold text-plugo-accent mb-2">Thank you!</h3>
-                  <p className="text-plugo-text/60">We'll be in touch soon.</p>
+                  <p className="text-plugo-text/60">We&apos;ll be in touch soon.</p>
                 </motion.div>
               ) : (
                 <>

@@ -12,7 +12,7 @@ export default function DemoPlugo() {
   const [startTime, setStartTime] = useState<number | null>(null);
   const [elapsed, setElapsed] = useState<number>(0);
   const [cost, setCost] = useState<number>(0);
-  const [weeklyUsage, setWeeklyUsage] = useState<number>(12); // Mock usage for monthly plan
+  const [weeklyUsage] = useState<number>(12); // Mock usage for monthly plan
 
   // Timer effect
   useEffect(() => {
@@ -284,7 +284,7 @@ export default function DemoPlugo() {
               {phase === 'idle' && (
                 <div className="text-center py-12 text-plugo-text/50">
                   <p className="text-6xl mb-4">👆</p>
-                  <p>Tap "Simulate Scan" to start</p>
+                  <p>Tap &quot;Simulate Scan&quot; to start</p>
                 </div>
               )}
 
